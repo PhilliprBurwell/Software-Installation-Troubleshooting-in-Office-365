@@ -52,46 +52,44 @@ If Office 365 encounters problems, use the following troubleshooting methods:
 
 
 Issue 1: Office Apps Not Opening or Crashing
-Fix:
+
 
 <img width="958" alt="image" src="https://github.com/user-attachments/assets/c6901bac-911f-4e98-913f-a5548104b6f7" />
 
 
-Restart the computer and try again.
-Open Task Manager (Ctrl + Shift + Esc), find any running Office processes, and end task.
+Fix: Restart the computer and try again. Open Task Manager (Ctrl + Shift + Esc), find any running Office processes, and end task.
 Run Office in Safe Mode: Press Win + R, type winword /safe, and hit Enter.
 
 
 Issue 2: Office 365 Activation Error
-Fix:
 
 <img width="938" alt="image" src="https://github.com/user-attachments/assets/c8c07199-3df1-4bde-a580-22b4c8109b7b" />
 
+<img width="611" alt="image" src="https://github.com/user-attachments/assets/b918b64a-4345-4673-8636-a2dbbf3e99ae" />
 
-Sign out of Office and sign back in with the correct account.
-Check internet connectivity and firewall settings.
+Fix: Sign out of Office and sign back in with the correct account. Check internet connectivity through powershell. Ping to the loopback address. ( ping 127.0.0.1 ) You can also check the firewall settings.
 Go to File > Account > Update License and try again.
 
 
 Issue 3: Office 365 Not Updating
-Fix:
+
 
 <img width="261" alt="image" src="https://github.com/user-attachments/assets/b46c44cb-c8f4-420e-8f25-327e155cf2b3" />
 
-Check if automatic updates are enabled (File > Account > Update Options > Enable Updates).
+Fix: Check if automatic updates are enabled (File > Account > Update Options > Enable Updates).
 Run Office as an administrator and retry the update.
 Manually download the latest update from Microsoft's Office website.
 
 
 Issue 4: Slow Performance in Office Apps
-Fix:
+
 
 <img width="581" alt="image" src="https://github.com/user-attachments/assets/0defa1eb-97b1-4b00-80e2-15892bc04ffa" />
 
 
 <img width="220" alt="image" src="https://github.com/user-attachments/assets/dd6eb1cd-85ed-4447-a5d8-e991653eb392" />
 
-Disable add-ins (File > Options > Add-ins > Manage COM Add-ins > Disable unnecessary add-ins).
+Fix: Disable add-ins (File > Options > Add-ins > Manage COM Add-ins > Disable unnecessary add-ins).
 Repair Office (Control Panel > Programs > Microsoft Office > Modify > Quick Repair).
 Ensure the system meets Office requirements (RAM, storage).
 
