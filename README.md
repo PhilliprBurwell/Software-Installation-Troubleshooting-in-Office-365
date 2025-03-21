@@ -1,7 +1,7 @@
  ![image](https://github.com/user-attachments/assets/5d1f41a9-e3e7-4441-a67b-237c2c62df35)
 
 <h1> Software Installation Troubleshooting in Office 365 </h1>
- <br /> This project involves creating a detailed documentation guide on installing, updating, and troubleshooting essential IT support software. The guide will walk users through the process of handling common issues, demonstrating my problem-solving skills.<br />
+ <br /> This project involves creating a detailed documentation guide on installing, updating, and troubleshooting essential IT support software. I am going to use Microsoft 365. The guide will also walk through the process of handling common issues, demonstrating my troubleshooting and problem-solving skills.<br />
 
 
 <h2>Environments and Technologies Used</h2>
@@ -53,7 +53,10 @@ If Office 365 encounters problems, use the following troubleshooting methods:
 
 Issue 1: Office Apps Not Opening or Crashing
 Fix:
-(Image)
+
+<img width="958" alt="image" src="https://github.com/user-attachments/assets/c6901bac-911f-4e98-913f-a5548104b6f7" />
+
+
 Restart the computer and try again.
 Open Task Manager (Ctrl + Shift + Esc), find any running Office processes, and end task.
 Run Office in Safe Mode: Press Win + R, type winword /safe, and hit Enter.
@@ -61,7 +64,10 @@ Run Office in Safe Mode: Press Win + R, type winword /safe, and hit Enter.
 
 Issue 2: Office 365 Activation Error
 Fix:
-(Image)
+
+<img width="938" alt="image" src="https://github.com/user-attachments/assets/c8c07199-3df1-4bde-a580-22b4c8109b7b" />
+
+
 Sign out of Office and sign back in with the correct account.
 Check internet connectivity and firewall settings.
 Go to File > Account > Update License and try again.
@@ -69,7 +75,9 @@ Go to File > Account > Update License and try again.
 
 Issue 3: Office 365 Not Updating
 Fix:
-(Image)
+
+<img width="261" alt="image" src="https://github.com/user-attachments/assets/b46c44cb-c8f4-420e-8f25-327e155cf2b3" />
+
 Check if automatic updates are enabled (File > Account > Update Options > Enable Updates).
 Run Office as an administrator and retry the update.
 Manually download the latest update from Microsoft's Office website.
@@ -77,18 +85,17 @@ Manually download the latest update from Microsoft's Office website.
 
 Issue 4: Slow Performance in Office Apps
 Fix:
-(Image)
+
+<img width="581" alt="image" src="https://github.com/user-attachments/assets/0defa1eb-97b1-4b00-80e2-15892bc04ffa" />
+
+
+<img width="220" alt="image" src="https://github.com/user-attachments/assets/dd6eb1cd-85ed-4447-a5d8-e991653eb392" />
+
 Disable add-ins (File > Options > Add-ins > Manage COM Add-ins > Disable unnecessary add-ins).
 Repair Office (Control Panel > Programs > Microsoft Office > Modify > Quick Repair).
 Ensure the system meets Office requirements (RAM, storage).
 
 
-Issue 5: Outlook Not Sending or Receiving Emails
-Fix:
-(Image)
-Restart Outlook and check the Work Offline setting.
-Verify internet connectivity.
-Run the Outlook Repair Tool from Control Panel > Mail > Profiles.
 
 
 
