@@ -14,23 +14,26 @@
 
 <h2>List of Steps </h2>
 
-- Installation Guide
-- Updating Software
+- Install Microsoft Office 365
+- Update Microsoft Office 365
 - Troubleshooting Common Issues
+
 
 <h2> Important Steps</h2>
 
 
 
-1. Installation Guide:
-Document step-by-step instructions for downloading and installing Office 365.
+#1 Install Microsoft Office 365 - Document step-by-step instructions for downloading and installing Office 365.
 Include activation steps and potential licensing issues.
 
-2. Updating Software:
-Explain how to check for updates and manually update Office apps.
+
+
+
+#2 Update Microsoft Office 365 - Explain how to check for updates and manually update Office apps.
 Cover issues like failed updates or corrupted installations and their solutions.
 
-3. Troubleshooting Common Issues:
 
-List common problems (e.g., Office not opening, licensing errors, crashes).
+
+
+#3 Troubleshooting Common Issues - List common problems (e.g., Office not opening, licensing errors, crashes).
 Provide step-by-step troubleshooting methods (e.g., repairing installation, checking event logs, reinstalling software).
