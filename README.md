@@ -1,6 +1,6 @@
  ![image](https://github.com/user-attachments/assets/5d1f41a9-e3e7-4441-a67b-237c2c62df35)
 
-<h1> Software Installation Troubleshooting in Office 365 </h1>
+<h1> Software & Driver Installation Troubleshooting in Office 365 </h1>
  <br /> This project involves creating a detailed documentation guide on installing, updating, and troubleshooting essential IT support software. I am going to use Microsoft 365. The guide will also walk through the process of handling common issues, demonstrating my troubleshooting and problem-solving skills.<br />
 
 
@@ -46,7 +46,41 @@
 
 #2. Updating Microsoft Office 365 - Keeping Office 365 updated ensures you have the latest security patches and features. Open Office Update Settings. Open Microsoft Word (or any Office app). Click on "File" > "Account" (in some versions, it may be "Office Account"). Under Product Information, locate the Update Options button. Click "Update Options" > "Update Now". Office will check for updates and begin downloading them if available. If updates are installed, a message will confirm it: “You're up to date”. In the same Update Options menu, select "Enable Updates" to ensure Office updates automatically.
 
-<h2> Part 2 Troubleshooting Common Office 365 Issues </h2>
+<h2> Part 2 Installation and Upgrading Netwrork Adapter </h2>
+
+
+(Image 1)
+<img width="958" alt="image" src="https://github.com/user-attachments/assets/40110ff2-a6e3-46a2-b9ce-72895e78db77" />
+
+#1. Establishing Temporary Internet Access - Since the PC had no existing wireless capability, I connected it to the router using an Ethernet cable. This allowed me to access the Netgear support website to download the correct A6100 driver and software package directly from the source, ensuring compatibility and up-to-date files.
+
+
+(Image 1)
+<img width="952" alt="image" src="https://github.com/user-attachments/assets/170dfbb9-5aaa-446f-929d-a0a34c7fb24c" />
+
+
+(Image 2)
+
+<img width="760" alt="image" src="https://github.com/user-attachments/assets/b61cc2b8-2116-4503-ad1b-33e230b472c5" />
+
+
+#2. Installing the Netgear A6100 Drivers - After downloading the driver package, I ran the installation executable and followed the guided setup. I unziped the Netgear A1600 files and downloaded the standalone file. Once installed, I safely removed the Ethernet connection and connected the Netgear A6100 USB WiFi adapter to an available USB port. Windows recognized the adapter, and the driver initialized the wireless connection module.
+
+
+(Image 1)
+<img width="266" alt="image" src="https://github.com/user-attachments/assets/db121d53-7101-41e4-801b-f9431b3ca253" />
+
+(Image 2)
+
+<img width="611" alt="image" src="https://github.com/user-attachments/assets/a7e106a2-7174-4928-b861-f756d83a6052" />
+
+
+#3.  Connecting to a Wireless Network & Verifying Internet Connectivity via PowerShell - I opened the network settings, scanned for available WiFi networks, and connected the PC to my home network using the correct credentials. The system showed a successful connection with full signal strength, confirming the adapter was functioning properly. To confirm the connection, I launched PowerShell and ran the command:
+ping www.google.com
+Successful replies verified that the PC had active internet access through the Netgear A6100 adapter, completing the setup process.
+
+
+<h2> Part 3 Troubleshooting Common Office 365 Issues </h2>
 
 If Office 365 encounters problems, use the following troubleshooting methods:
 
