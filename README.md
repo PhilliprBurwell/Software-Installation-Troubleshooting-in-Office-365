@@ -1,7 +1,7 @@
  ![image](https://github.com/user-attachments/assets/5d1f41a9-e3e7-4441-a67b-237c2c62df35)
 
-<h1> Software & Driver Installation Troubleshooting in Office 365 </h1>
- <br /> This project involves creating a detailed documentation guide on installing, updating, and troubleshooting essential IT support software. I am going to use Microsoft 365. The guide will also walk through the process of handling common issues, demonstrating my troubleshooting and problem-solving skills.<br />
+<h1> Software & Driver Installation, Updating and Troubleshooting </h1>
+ <br /> This project involves creating a detailed documentation guide on installing, updating, and troubleshooting essential IT support software and drivers. I am going to use Microsoft 365 and a network adapter. The guide will also walk through the process of handling common issues, demonstrating my troubleshooting and problem-solving skills.<br />
 
 
 <h2>Environments and Technologies Used</h2>
@@ -12,11 +12,17 @@
 
 - Microsoft Office 365
 
+<h2> Driver Choice </h2>
+
+- Netgear A6100 Wifi Adapter
+
 <h2>List of Steps </h2>
 
 - Install Microsoft Office 365
 - Update Microsoft Office 365
-- Troubleshooting Common Issues
+- Install Network Adapter Driver
+- Update Network Adapter Driver
+- Troubleshooting Common Issues 
 
 <h2> Part 1 Installation and Upgrading Microsoft 365 </h2>
 (Image 1)
@@ -64,10 +70,10 @@
 <img width="760" alt="image" src="https://github.com/user-attachments/assets/b61cc2b8-2116-4503-ad1b-33e230b472c5" />
 
 
-#2. Installing the Netgear A6100 Drivers - After downloading the driver package, I ran the installation executable and followed the guided setup. I unziped the Netgear A1600 files and downloaded the standalone file. Once installed, I safely removed the Ethernet connection and connected the Netgear A6100 USB WiFi adapter to an available USB port. Windows recognized the adapter, and the driver initialized the wireless connection module.
+#2. Installing the Netgear A6100 Drivers - After downloading the driver package, I ran the installation executable and followed the guided setup. I unziped the Netgear A1600 files and downloaded the standalone file. Once installed, I safely removed the Ethernet connection and connected the Netgear A6100 USB WiFi adapter to an available USB port. I checked if windows recognized the adapter through device manager, and I checked for updates aswell and it was up to date.
 
 
-(Image 1)
+      (Image 1)
 <img width="266" alt="image" src="https://github.com/user-attachments/assets/db121d53-7101-41e4-801b-f9431b3ca253" />
 
 (Image 2)
@@ -80,9 +86,7 @@ ping www.google.com
 Successful replies verified that the PC had active internet access through the Netgear A6100 adapter, completing the setup process.
 
 
-<h2> Part 3 Troubleshooting Common Office 365 Issues </h2>
-
-If Office 365 encounters problems, use the following troubleshooting methods:
+<h2> Part 3 Troubleshooting Common Issues </h2>
 
 
 Issue 1: Office Apps Not Opening or Crashing
@@ -126,6 +130,14 @@ Issue 4: Slow Performance in Office Apps
 Fix: Disable add-ins (File > Options > Add-ins > Manage COM Add-ins > Disable unnecessary add-ins).
 Repair Office (Control Panel > Programs > Microsoft Office > Modify > Quick Repair).
 Ensure the system meets Office requirements (RAM, storage).
+
+Issue 5: Adapter Not Detecting WiFi Networks
+
+<img width="950" alt="image" src="https://github.com/user-attachments/assets/183d98d9-86a8-4e56-b572-4f1ee9d21ed3" />
+
+Fix: Confirme the USB port is functional by testing with another device. Once the port was ruled out, proceed to manage the driver for the Netgear A6100 adapter Select Device Manager. Under Network adapters, I located NETGEAR A6100 WiFi Adapter. If it was missing or had a yellow warning symbol, that confirmed a driver issue. Right-clicked the adapter and selected Uninstall device. Checked the box for "Delete the driver software for this device", then confirmed the uninstall. Download the latest driver from Netgear’s official support page. After installation, restart the PC and verified the adapter was recognized properly.
+
+
 
 
 
