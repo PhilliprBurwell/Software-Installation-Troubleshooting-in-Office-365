@@ -31,10 +31,6 @@
 
 (Image 2)
 
-<img width="176" alt="image" src="https://github.com/user-attachments/assets/d9be34e7-c887-4489-aa98-18435ce1afd2" />
-
-(Image 3)
-
 ![image](https://github.com/user-attachments/assets/beb6ccdc-aaab-468b-8074-6c57f01423c9)
 
 
@@ -44,10 +40,6 @@
 
 <img width="261" alt="image" src="https://github.com/user-attachments/assets/b46c44cb-c8f4-420e-8f25-327e155cf2b3" />
 
-
-(Image 2)
-
-<img width="240" alt="image" src="https://github.com/user-attachments/assets/d00fc7e2-2efd-4bdb-94ec-bd2e6d60890c" />
 
 
 #2. Updating Microsoft Office 365 - Keeping Office 365 updated ensures you have the latest security patches and features. Open Office Update Settings. Open Microsoft Word (or any Office app). Click on "File" > "Account" (in some versions, it may be "Office Account"). Under Product Information, locate the Update Options button. Click "Update Options" > "Update Now". Office will check for updates and begin downloading them if available. If updates are installed, a message will confirm it: “You're up to date”. In the same Update Options menu, select "Enable Updates" to ensure Office updates automatically.
@@ -119,19 +111,8 @@ Run Office as an administrator and retry the update.
 Manually download the latest update from Microsoft's Office website.
 
 
-Issue 4: Slow Performance in Office Apps
 
-
-<img width="581" alt="image" src="https://github.com/user-attachments/assets/0defa1eb-97b1-4b00-80e2-15892bc04ffa" />
-
-
-<img width="220" alt="image" src="https://github.com/user-attachments/assets/dd6eb1cd-85ed-4447-a5d8-e991653eb392" />
-
-Fix: Disable add-ins (File > Options > Add-ins > Manage COM Add-ins > Disable unnecessary add-ins).
-Repair Office (Control Panel > Programs > Microsoft Office > Modify > Quick Repair).
-Ensure the system meets Office requirements (RAM, storage).
-
-Issue 5: Adapter Not Detecting WiFi Networks
+Issue 4: Adapter Not Detecting WiFi Networks
 
 <img width="950" alt="image" src="https://github.com/user-attachments/assets/183d98d9-86a8-4e56-b572-4f1ee9d21ed3" />
 
